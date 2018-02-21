@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Otptext"
+        android:hint="Enter OTP"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Submit"
+        android:id="@+id/otp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Otptext"
+        android:layout_marginBottom="143dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Generate OTP"
+        android:id="@+id/generateotp"
+        android:layout_marginBottom="99dp"
+        android:layout_alignBottom="@+id/Otptext"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

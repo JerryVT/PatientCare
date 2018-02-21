@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/f7c826712e0b49c10a9deaec7e79d0ae20ccf838/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_b1a22dc4deb99b64123f968ff7dbec23979818db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/dd0dee79d3e93c2de603703e963d6f17bf985554/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e9b8fd995f9c6c2caeb49827f0b52e0e8cc621e0">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_be84222b909919fe7e4d19e3a5212bcbac31dffe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/7f950f33c4f2f1872a40e2fafa0a8416730f878c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d6399340139f67ce4faba06e97f256ef0d6817c0">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_38ae0667c0f61691f069616aadd00c90290d98c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/b3a356b0a059f7553d6cb9f6079fe6bb8672a366/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da443aff9cd3c2cd75b957e0547e1ca2c4f30308">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_4564d57be0214e21cfb9b3f2330fbb4d1f48af8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/0c57c24c9abbfba6f13fadb674f72d92ff4f943c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="869a1d15fa9d8e8aa36587b042f553c1baea46bc">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_544db6fc718fbc8f739bc09e2c364f2a32e87785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/be3b13129720b6f7118c7edf4f3422bb98cb99da/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e40b9a81989bd4a846018551c280f8c4d837bf2e">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_d7cfcb36c32ba22d73ea72351672c4e404809a24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/3a938be9fa31c40f4d27f4ad7ffb15a8863983b9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="863b37c463df79f340b5d83bbbfc63ad25612e01">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_72dba6f915ceca384242fc353c7450f58194d93b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/e5d0ee72f3be189bbe296dbd6baf3609ac7752e2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1cde19cbf9be88547ab4b7f03668eac5d91bd611">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_337ecfdd57b1084e81d0354bb00ba253c9b6ee4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/40b8a35f37881e435c3d1de50b41a6c9a4556187/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="729a6a1975c19d7461378172c7932f5c57f1c3fe">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_002c52fc568ad6ceab53834f30aaafcee21ba28d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jerry/.android/build-cache/109557de3e964b784bca33a9b6853167cf4cdff6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cd1ff651ddb8608e9c4037f3d9ab475e9472abb2">
+        <dex dex="/home/jerry/AndroidStudioProjects/Trial_OTP/app/build/intermediates/pre-dexed/debug/classes_d55cbb2d1c3efc551e9740df4251640273196a52.jar" />
+    </item>
+
+</items>

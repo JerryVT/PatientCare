@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">902442247142-g2mujpqj2bh222d9rl9geisot2c2vl2k.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://trialotp.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">902442247142</string>
+    <string name="google_api_key" translatable="false">AIzaSyAmktxPcTxJWNiKz9AJAvG_h4Bk2b6-ffk</string>
+    <string name="google_app_id" translatable="false">1:902442247142:android:9a7c434afb75afbf</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAmktxPcTxJWNiKz9AJAvG_h4Bk2b6-ffk</string>
+    <string name="google_storage_bucket" translatable="false">trialotp.appspot.com</string>
+    <string name="project_id" translatable="false">trialotp</string>
+</resources>
