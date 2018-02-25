@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b183667463bbdce5cd6add411385f3c9/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta5] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0-beta5.aar/fb4ecd500f25132dc5ea29e5126d80d1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/3fe54c672b1b9f0e550dbfcfeb9666c4/AndroidManifest.xml:1:70-7:12
 MERGED from [com.google.firebase:firebase-auth:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/9cc66bf503fa1054eaa33e64c032add7/AndroidManifest.xml:17:1-32:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/b23e5ad17c4a913fec9ebd9bbc345c1c/AndroidManifest.xml:2:1-6:12
@@ -32,25 +32,25 @@ MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] /home/je
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-analytics-license-11.8.0.aar/4e293e59a3a343c14472b71cc40e8682/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-license-11.8.0.aar/e605fe9c840ac9c6abf8c6cf5df15982/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-iid-license-11.8.0.aar/2c5e7283b1dd7b416ff0cc6260e2559b/AndroidManifest.xml:2:1-6:12
-INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
-INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
+INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:3:5-42
 		INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
 		INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
-		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
-		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-38:12
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:5:5-66
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/dd394c877f117b8fd3913ca6a9abb251/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.8.0.aar/dd394c877f117b8fd3913ca6a9abb251/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.8.0.aar/2e4a9382e0dfc38456bc6bca4d35a777/AndroidManifest.xml:23:5-67
@@ -60,11 +60,11 @@ MERGED from [com.google.firebase:firebase-iid:11.8.0] /home/jerry/.gradle/caches
 	android:name
 		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:7:5-36:19
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:7:5-29:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b183667463bbdce5cd6add411385f3c9/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b183667463bbdce5cd6add411385f3c9/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta5] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0-beta5.aar/fb4ecd500f25132dc5ea29e5126d80d1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta5] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0-beta5.aar/fb4ecd500f25132dc5ea29e5126d80d1/AndroidManifest.xml:9:5-20
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/3fe54c672b1b9f0e550dbfcfeb9666c4/AndroidManifest.xml:5:5-19
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/3fe54c672b1b9f0e550dbfcfeb9666c4/AndroidManifest.xml:5:5-19
 MERGED from [com.google.firebase:firebase-auth:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/9cc66bf503fa1054eaa33e64c032add7/AndroidManifest.xml:22:5-30:19
@@ -144,29 +144,45 @@ ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xm
 	android:name
 		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:18:27-74
 activity#com.example.jerry.trial_otp.Home
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:22:9-23:20
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:21:9-42
 	android:name
-		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:22:19-39
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:21:19-39
 activity#com.example.jerry.trial_otp.Register
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:25:9-26:20
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:22:9-46
 	android:name
-		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:25:19-43
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:22:19-43
 activity#com.example.jerry.trial_otp.Verification
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:28:9-30:20
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:23:9-50
 	android:name
-		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:28:19-47
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:23:19-47
 activity#com.example.jerry.trial_otp.Welcome
-ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:32:9-34:20
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:24:9-45
 	android:name
-		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:32:19-42
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:24:19-42
+activity#com.example.jerry.trial_otp.Reg_Patient
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:25:9-49
+	android:name
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:25:19-46
+activity#com.example.jerry.trial_otp.Home_Patient
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:26:19-47
+activity#com.example.jerry.trial_otp.Reg_Doctor
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:27:9-48
+	android:name
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:27:19-45
+activity#com.example.jerry.trial_otp.Home_Doctor
+ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:28:9-58
+	android:name
+		ADDED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml:28:19-46
 uses-sdk
 INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
 INJECTED from /home/jerry/Downloads/app/PatientCare/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b183667463bbdce5cd6add411385f3c9/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/b183667463bbdce5cd6add411385f3c9/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta5] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0-beta5.aar/fb4ecd500f25132dc5ea29e5126d80d1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0-beta5] /home/jerry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0-beta5.aar/fb4ecd500f25132dc5ea29e5126d80d1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/3fe54c672b1b9f0e550dbfcfeb9666c4/AndroidManifest.xml:3:5-72
 MERGED from [com.mcxiaoke.volley:library-aar:1.0.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/library-aar-1.0.0.aar/3fe54c672b1b9f0e550dbfcfeb9666c4/AndroidManifest.xml:3:5-72
 MERGED from [com.google.firebase:firebase-auth:11.8.0] /home/jerry/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/9cc66bf503fa1054eaa33e64c032add7/AndroidManifest.xml:20:5-44

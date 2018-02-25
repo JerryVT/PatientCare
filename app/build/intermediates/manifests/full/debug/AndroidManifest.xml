@@ -31,7 +31,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.jerry.trial_otp.MainActivity" >
             <intent-filter>
@@ -40,14 +39,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.jerry.trial_otp.Home" >
-        </activity>
-        <activity android:name="com.example.jerry.trial_otp.Register" >
-        </activity>
-        <activity android:name="com.example.jerry.trial_otp.Verification" >
-        </activity>
-        <activity android:name="com.example.jerry.trial_otp.Welcome" >
-        </activity>
+        <activity android:name="com.example.jerry.trial_otp.Home" />
+        <activity android:name="com.example.jerry.trial_otp.Register" />
+        <activity android:name="com.example.jerry.trial_otp.Verification" />
+        <activity android:name="com.example.jerry.trial_otp.Welcome" />
+        <activity android:name="com.example.jerry.trial_otp.Reg_Patient" />
+        <activity android:name="com.example.jerry.trial_otp.Home_Patient" />
+        <activity android:name="com.example.jerry.trial_otp.Reg_Doctor" />
+        <activity android:name="com.example.jerry.trial_otp.Home_Doctor" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

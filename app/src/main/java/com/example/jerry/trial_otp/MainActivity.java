@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
     EditText name, password;
     String Name, Password;
     Context ctx=this;
-    String NAME=null, PASSWORD=null, EMAIL=null;
+    String NAME=null, PASSWORD=null, EMAIL=null,FLAG=null,USERTYPE=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,17 +93,52 @@ public class MainActivity extends Activity {
                 NAME = user_data.getString("name");
                 PASSWORD = user_data.getString("password");
                 EMAIL = user_data.getString("email");
+                USERTYPE = user_data.getString("userType");
+                FLAG = user_data.getString("flag");
             } catch (JSONException e) {
                 e.printStackTrace();
                 err = "Exception: "+e.getMessage();
             }
 
-            Intent i = new Intent(ctx, Home.class);
-            i.putExtra("name", NAME);
-            i.putExtra("password", PASSWORD);
-            i.putExtra("email", EMAIL);
-            i.putExtra("err", err);
-            startActivity(i);
+            if (USERTYPE = "Patient") {
+
+                if (FLAG = "0") {       //More Details not provided
+                    Intent i = new Intent(ctx, Reg_Patient.class);
+                    i.putExtra("name", NAME);
+                    i.putExtra("password", PASSWORD);
+                    i.putExtra("email", EMAIL);
+                    i.putExtra("err", err);
+                    startActivity(i);
+                }
+                else {          //All Details were provided
+
+                    Intent i = new Intent(ctx, Home_Patient.class);
+                    i.putExtra("name", NAME);
+                    i.putExtra("password", PASSWORD);
+                    i.putExtra("email", EMAIL);
+                    i.putExtra("err", err);
+                    startActivity(i);
+                }
+            }
+
+            else if (USERTYPE = "Doctor") {
+                if (FLAG = "0") {
+                    Intent i = new Intent(ctx, Reg_Doctor.class);
+                    i.putExtra("name", NAME);
+                    i.putExtra("password", PASSWORD);
+                    i.putExtra("email", EMAIL);
+                    i.putExtra("err", err);
+                    startActivity(i);
+                } else {
+                    Intent i = new Intent(ctx, Home_Doctor.class);
+                    i.putExtra("name", NAME);
+                    i.putExtra("password", PASSWORD);
+                    i.putExtra("email", EMAIL);
+                    i.putExtra("err", err);
+                    startActivity(i);
+                }
+            }
+
 
         }
     }

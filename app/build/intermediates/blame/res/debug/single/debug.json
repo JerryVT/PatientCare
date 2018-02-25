@@ -20,6 +20,10 @@
         "source": "/home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/layout_reg__doctor.xml.flat",
+        "source": "/home/jerry/Downloads/app/PatientCare/app/src/main/res/layout/reg__doctor.xml"
+    },
+    {
         "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "/home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
@@ -436,6 +440,10 @@
         "source": "/home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/res/layout/abc_action_mode_bar.xml"
     },
     {
+        "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/layout_reg__patient.xml.flat",
+        "source": "/home/jerry/Downloads/app/PatientCare/app/src/main/res/layout/reg__patient.xml"
+    },
+    {
         "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "/home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
@@ -558,6 +566,10 @@
     {
         "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/layout_home__doctor.xml.flat",
+        "source": "/home/jerry/Downloads/app/PatientCare/app/src/main/res/layout/home__doctor.xml"
     },
     {
         "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
@@ -974,6 +986,10 @@
     {
         "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/jerry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/35681b029a6c19debbd5ae46c27a89a4/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/layout_home__patient.xml.flat",
+        "source": "/home/jerry/Downloads/app/PatientCare/app/src/main/res/layout/home__patient.xml"
     },
     {
         "merged": "/home/jerry/Downloads/app/PatientCare/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat",

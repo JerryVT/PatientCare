@@ -28,7 +28,7 @@ public class Home extends Activity {
         Email = getIntent().getStringExtra("email");
       //  Err = getIntent().getStringExtra("err");
 
-        nameTV.setText("Welcome "+Name);
+        nameTV.setText("Hi "+Name);
        // passwordTV.setText("Your password is "+password);
         //emailTV.setText("Your email is "+email);
         //err.setText(Err);

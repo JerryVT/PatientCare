@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.jerry.trial_otp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -18,21 +18,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity android:name=".Home">
-        </activity>
-
-        <activity android:name=".Register">
-        </activity>
-
-        <activity android:name=".Verification">
-
-        </activity>
-
-        <activity android:name=".Welcome">
-
-        </activity>
-
+        <activity android:name=".Home" />
+        <activity android:name=".Register" />
+        <activity android:name=".Verification" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Reg_Patient" />
+        <activity android:name=".Home_Patient" />
+        <activity android:name=".Reg_Doctor" />
+        <activity android:name=".Home_Doctor"></activity>
     </application>
 
 </manifest>

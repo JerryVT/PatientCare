@@ -6,6 +6,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -22,6 +23,9 @@ import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -33,7 +37,7 @@ import java.util.concurrent.TimeUnit;
 public class Verification extends AppCompatActivity
 {
     EditText OTP;
-    String name,password,email,mobile_no;
+    String name,password,email,mobile_no,flag,userType,result;
     Button OTPsubmit,OTPgenerate;
 
     private FirebaseAuth mAuth;
@@ -57,6 +61,10 @@ public class Verification extends AppCompatActivity
         password = getIntent().getStringExtra("password");
         email = getIntent().getStringExtra("email");
         mobile_no = getIntent().getStringExtra("mobileno");
+        flag=getIntent().getStringExtra("flag");
+        userType=getIntent().getStringExtra("userType");
+
+        Log.d("Register","DType: " + userType) ;
 
         mAuth = FirebaseAuth.getInstance();
 
@@ -69,7 +77,7 @@ public class Verification extends AppCompatActivity
 
             @Override
             public void onVerificationFailed(FirebaseException e) {
-                Toast.makeText(Verification.this,"verifucation fail",Toast.LENGTH_LONG).show();
+                Toast.makeText(Verification.this,"verification fail",Toast.LENGTH_LONG).show();
                 if (e instanceof FirebaseAuthInvalidCredentialsException) {
                     // Invalid request
                     // [START_EXCLUDE]
@@ -143,7 +151,7 @@ public class Verification extends AppCompatActivity
                             //startActivity(go_back);
 
                             BackGround b = new BackGround();
-                            b.execute(name, password, email,mobile_no);
+                            b.execute(name, password, email,mobile_no,userType);
 
 
 
@@ -171,12 +179,16 @@ class BackGround extends AsyncTask<String, String, String> {
         String password = params[1];
         String email = params[2];
         String phno = params[3];
+        String userTypes = params[4];
         String data="";
         int tmp;
 
+
         try {
+            Log.d("Register","Type: " + userTypes) ;
+
             URL url = new URL("http://blending-jacks.000webhostapp.com/reglog_trial/register.php");
-            String urlParams = "name="+name+"&password="+password+"&email="+email+"&phoneno="+phno;
+            String urlParams = "name="+name+"&password="+password+"&email="+email+"&phoneno="+phno+"&userType="+userTypes;
 
             HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
             httpURLConnection.setDoOutput(true);
@@ -204,6 +216,16 @@ class BackGround extends AsyncTask<String, String, String> {
 
     @Override
     protected void onPostExecute(String s) {
+       /* try {
+            JSONObject responseJSON = new JSONObject(result);
+            String loginMessage = responseJSON.getString("loginMessage");
+            // String userName = responseJSON.getString("user");
+            Log.d("Register", "LAtest: " + loginMessage);
+        }
+        catch (JSONException e){
+            e.printStackTrace();
+        }*/
+
         if(s.equals("")){
             s="Registered successfully.Please Login";
             Intent go_back = new Intent(getApplicationContext(), MainActivity.class);
